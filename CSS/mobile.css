@@ -1,0 +1,68 @@
+#navbar {
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+#navbar .logo{
+    margin-bottom: 1rem;
+}
+
+/* Header*/
+.l-heading{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.lead{
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+/*About section*/
+#about .about-content{
+    display: block;
+    text-align: center;
+}
+
+#about .about-content img{
+    width: 100%;
+    margin: 1rem 0 0 0;
+}
+
+/* Program Section*/
+#programs .boxes{
+    display: block;
+}
+
+/* Trainers sections*/
+#trainers .trainer-boxes{
+    display: block;
+}
+
+/* Contact section */
+#contact{
+    flex-direction: column;
+    height: 1000px;
+}
+
+/* Media Query */
+@media (max-width: 500px){
+    #navbar {
+        position: static;
+    }
+
+    #navbar ul{
+        display: block;
+        text-align: center;
+        position: static;
+    }
+
+    #navbar ul li{
+        padding:1rem;
+    }
+}
+
+/* Form group */
+#contact .contact-us .form-group{
+    display: block;
+}
